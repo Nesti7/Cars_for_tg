@@ -1,26 +1,36 @@
 # Зависимости
 node_modules/
 package-lock.json
+yarn.lock
 
-# Сборка
+# Build артефакты
 dist/
 build/
-
-# Логи
-*.log
-npm-debug.log*
+.cache/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
 
+# Логи
+*.log
+logs/
+
 # Временные файлы
 *.tmp
-.cache/
+*.temp
+
+# Тестовые файлы (если будут)
+coverage/
+.nyc_output/
+
+# Cursor
+.cursor/
 
