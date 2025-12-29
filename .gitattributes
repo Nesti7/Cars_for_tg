@@ -6,9 +6,10 @@
 *.html filter=git-crypt diff=git-crypt
 *.css filter=git-crypt diff=git-crypt
 *.txt filter=git-crypt diff=git-crypt
+*.md filter=git-crypt diff=git-crypt
+.cursorrules filter=git-crypt diff=git-crypt
 
 # НЕ шифровать
-README.md -filter
 .gitignore -filter
 .gitattributes -filter
 LICENSE -filter
