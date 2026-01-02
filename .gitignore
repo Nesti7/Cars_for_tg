@@ -1,0 +1,36 @@
+# Зависимости
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build артефакты
+dist/
+build/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Тестовые файлы (если будут)
+coverage/
+.nyc_output/
+
+# Cursor
+.cursor/
+

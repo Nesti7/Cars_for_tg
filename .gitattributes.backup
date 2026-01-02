@@ -1,0 +1,33 @@
+# Git-Crypt настройки шифрования
+# Шифруем весь код кроме публичных файлов
+
+# Шифровать JavaScript код
+*.js filter=git-crypt diff=git-crypt
+js/** filter=git-crypt diff=git-crypt
+
+# Шифровать HTML (кроме README)
+index.html filter=git-crypt diff=git-crypt
+
+# Шифровать CSS
+*.css filter=git-crypt diff=git-crypt
+
+# Шифровать файл отчётности
+"Уже сделанно.txt" filter=git-crypt diff=git-crypt
+
+# Шифровать правила Cursor
+.cursorrules filter=git-crypt diff=git-crypt
+
+# НЕ шифровать (публичные файлы)
+README.md -filter -diff
+LICENSE -filter -diff
+.gitignore -filter -diff
+.gitattributes -filter -diff
+*.md -filter -diff
+
+# НЕ шифровать картинки и медиа (если будут)
+*.png -filter -diff
+*.jpg -filter -diff
+*.jpeg -filter -diff
+*.gif -filter -diff
+*.svg -filter -diff
+
